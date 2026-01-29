@@ -6,10 +6,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.0",
-    "@googleapis/auth": "^5.0.0",
-    "axios": "^1.6.0"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
+    "dev": "vite",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,6 +34,7 @@
     ]
   },
   "devDependencies": {
-    "react-scripts": "5.0.1"
+    "@vitejs/plugin-react": "^5.1.2",
+    "vite": "^7.3.1"
   }
 }
