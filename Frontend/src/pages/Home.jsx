@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import Header from '../components/common/Header';
+import Footer from '../components/common/Footer';
+// Add <Header /> and <Footer /> to your JSX
+
 
 const Home = () => {
   const { user, loginWithGoogle } = useAuth();
